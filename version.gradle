@@ -13,7 +13,7 @@ def navigationVersion = "2.3.0"
 // 新版本retrofit
 def retrofitVersion = '2.7.0'
 def rxjava2Version = '2.2.16'
-def okhttp3Version = '4.3.1'
+def okhttp3Version = '3.8.0'
 def rxandroidVersion = '2.1.1'
 
 ext.deps = [
@@ -47,7 +47,7 @@ ext.deps = [
         retrofit_converter_gson              : "com.squareup.retrofit2:converter-gson:$retrofit",
         retrofit_adapter_rxjava              : "com.squareup.retrofit2:adapter-rxjava:$retrofit",
 
-        okhttp_4_3_1                         : "com.squareup.okhttp3:okhttp:$okhttp3Version",
+        okhttp_3_8_0                         : "com.squareup.okhttp3:okhttp:$okhttp3Version",
         retrofit_2_7_0                       : "com.squareup.retrofit2:retrofit:$retrofitVersion",
         retrofit_converter_gson_2_7_0        : "com.squareup.retrofit2:converter-gson:$retrofitVersion",
         retrofit_adapter_rxjava2_2_7_0       : "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion",
