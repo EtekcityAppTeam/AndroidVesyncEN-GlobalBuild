@@ -13,7 +13,7 @@ def navigationVersion = "2.3.0"
 // 新版本retrofit
 def retrofitVersion = '2.7.0'
 def rxjava2Version = '2.2.16'
-def okhttp3Version = '3.8.0'
+def okhttp3Version = '4.8.0'
 def rxandroidVersion = '2.1.1'
 
 ext.deps = [
