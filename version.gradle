@@ -1,8 +1,8 @@
 ext {
     minSdkVersion = 21
-    targetSdkVersion = 29
-    compileSdkVersion = 29
-    buildToolsVersion = "29.0.2"
+    targetSdkVersion = 30
+    compileSdkVersion = 30
+    buildToolsVersion = "30.0.1"
 }
 //共用的依赖库
 def support = '28.0.0'
