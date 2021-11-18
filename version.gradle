@@ -39,7 +39,7 @@ ext.deps = [
         //https://github.com/wasabeef/glide-transformations
         glide_transformations                : 'jp.wasabeef:glide-transformations:4.0.0',
         //https://github.com/square/okhttp
-        okhttp                               : 'com.squareup.okhttp3:okhttp:$okhttp3Version',
+        okhttp                               : "com.squareup.okhttp3:okhttp:$okhttp3Version",
         logging_interceptor                  : 'com.squareup.okhttp3:logging-interceptor:3.12.1',
         //https://github.com/square/retrofit
         retrofit                             : "com.squareup.retrofit2:retrofit:$retrofit",
