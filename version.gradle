@@ -140,6 +140,15 @@ ext.deps = [
         filedownloader                       : "com.liulishuo.filedownloader:library:1.7.7",
         smart_refresh                        : "com.scwang.smart:refresh-layout-horizontal:2.0.0",
         yalantis_ucrop                       : "com.github.yalantis:ucrop:2.2.6",
-        android_gif_drawable                 : "pl.droidsonroids.gif:android-gif-drawable:1.2.23"
+        android_gif_drawable                 : "pl.droidsonroids.gif:android-gif-drawable:1.2.23",
+        // 如自定义tangram view需要使用到
+        vlayout                              : "com.alibaba.android:vlayout:1.2.36@aar",
+        ultraviewpager                       : "com.alibaba.android:ultraviewpager:1.0.7.8@aar",
+        virtualview                          : "com.alibaba.android:virtualview:1.4.6@aar",
+        virtual_common                       : "com.alibaba.android:virtual-common:1.0.11@jar",
+        fastjson                             : "com.alibaba:fastjson:1.2.69@jar",
+        pulltorefresh                        : "com.jwenfeng.pulltorefresh:library:1.2.7",
+        Luban                                : "top.zibin:Luban:1.1.8",
+        androidasync                         : "com.koushikdutta.async:androidasync:2.+"
 
 ]
