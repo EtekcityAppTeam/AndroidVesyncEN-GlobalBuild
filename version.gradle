@@ -149,6 +149,7 @@ ext.deps = [
         fastjson                             : "com.alibaba:fastjson:1.2.69@jar",
         pulltorefresh                        : "com.jwenfeng.pulltorefresh:library:1.2.7",
         Luban                                : "top.zibin:Luban:1.1.8",
-        androidasync                         : "com.koushikdutta.async:androidasync:2.+"
+        androidasync                         : "com.koushikdutta.async:androidasync:2.+",
+        switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3"
 
 ]
