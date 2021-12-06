@@ -150,6 +150,7 @@ ext.deps = [
         pulltorefresh                        : "com.jwenfeng.pulltorefresh:library:1.2.7",
         Luban                                : "top.zibin:Luban:1.1.8",
         androidasync                         : "com.koushikdutta.async:androidasync:2.+",
-        switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3"
+        switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3",
+        leakcanary                           : "com.squareup.leakcanary:leakcanary-android:2.7"
 
 ]
