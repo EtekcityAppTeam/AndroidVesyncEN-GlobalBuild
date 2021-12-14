@@ -151,6 +151,7 @@ ext.deps = [
         Luban                                : "top.zibin:Luban:1.1.8",
         androidasync                         : "com.koushikdutta.async:androidasync:2.+",
         switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3",
-        leakcanary                           : "com.squareup.leakcanary:leakcanary-android:2.7"
+        leakcanary                           : "com.squareup.leakcanary:leakcanary-android:2.7",
+        drakeet_multitype                    : "com.drakeet.multitype:multitype:4.3.0"
 
 ]
