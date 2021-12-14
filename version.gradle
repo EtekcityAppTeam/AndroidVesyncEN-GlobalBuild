@@ -152,6 +152,7 @@ ext.deps = [
         androidasync                         : "com.koushikdutta.async:androidasync:2.+",
         switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3",
         leakcanary                           : "com.squareup.leakcanary:leakcanary-android:2.7",
-        drakeet_multitype                    : "com.drakeet.multitype:multitype:4.3.0"
+        drakeet_multitype                    : "com.drakeet.multitype:multitype:4.3.0",
+        marquee_view                         : "com.sunfusheng:MarqueeView:1.4.0"
 
 ]
