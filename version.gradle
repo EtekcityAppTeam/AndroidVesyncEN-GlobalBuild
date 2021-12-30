@@ -66,7 +66,7 @@ ext.deps = [
         //https://github.com/H07000223/FlycoTabLayout
         flyco_tab_layout                     : 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2',
         //https://github.com/PhilJay/MPAndroidChart
-        mp_android_chart                     : 'com.github.PhilJay:MPAndroidChart:v3.0.1-alpha',
+        mp_android_chart                     : 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha',
         //https://github.com/venshine/WheelView
 //        wheel_view                  : 'com.wx.wheelview:wheelview:1.3.3',
         //https://github.com/kyleduo/SwitchButton
