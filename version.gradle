@@ -160,6 +160,7 @@ ext.deps = [
         imagezoom                            : "it.sephiroth.android.library.imagezoom:library:1.0.4",
         picasso                              : "com.squareup.picasso:picasso:2.5.2",
         nineoldandroids                      : "com.nineoldandroids:library:2.4.0",
-        unpeek_livedata                      : "com.kunminx.arch:unpeek-livedata:7.2.0-beta1"
+        unpeek_livedata                      : "com.kunminx.arch:unpeek-livedata:7.2.0-beta1",
+        photoView                            : "com.github.Baseflow:PhotoView:2.3.0"
 
 ]
