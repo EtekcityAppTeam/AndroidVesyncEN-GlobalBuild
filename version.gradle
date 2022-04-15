@@ -152,7 +152,6 @@ ext.deps = [
         Luban                                : "top.zibin:Luban:1.1.8",
         androidasync                         : "com.koushikdutta.async:androidasync:2.+",
         switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3",
-        switchbutton                         : "com.kyleduo.switchbutton:library:2.0.3",
         leakcanary                           : "com.squareup.leakcanary:leakcanary-android:2.7",
         drakeet_multitype                    : "com.drakeet.multitype:multitype:4.3.0",
         marquee_view                         : "com.sunfusheng:MarqueeView:1.4.0",
@@ -163,6 +162,7 @@ ext.deps = [
         unpeek_livedata                      : "com.kunminx.arch:unpeek-livedata:7.2.0-beta1",
         photoView                            : "com.github.Baseflow:PhotoView:2.3.0",
         fragment_ktx                         : "androidx.fragment:fragment-ktx:1.2.4",
-        realtimeblurview                     : "com.etekcity.thirdparty:Realtimeblurview:1.2.1-alpha03-SNAPSHOT"
+        realtimeblurview                     : "com.etekcity.thirdparty:Realtimeblurview:1.2.1-alpha03-SNAPSHOT",
+        bannerviewpager                      : "com.github.zhpanvip:bannerviewpager:3.5.5"
 
 ]
