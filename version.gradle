@@ -164,6 +164,8 @@ ext.deps = [
         fragment_ktx                         : "androidx.fragment:fragment-ktx:1.2.4",
         realtimeblurview                     : "com.etekcity.thirdparty:Realtimeblurview:1.2.1-alpha03-SNAPSHOT",
         immersionbar                         : "com.geyifeng.immersionbar:immersionbar:3.2.2",
-        bannerviewpager                      : "com.github.zhpanvip:bannerviewpager:3.5.5"
+        bannerviewpager                      : "com.github.zhpanvip:bannerviewpager:3.5.5",
+        play_services_location               : "com.google.android.gms:play-services-location:19.0.1",
+        circleimageview                      : "de.hdodenhof:circleimageview:3.1.0"
 
 ]
