@@ -131,7 +131,7 @@ ext.deps = [
         banner                               : "com.youth.banner:banner:2.1.0",
         refresh_layout_kernel                : "com.scwang.smart:refresh-layout-kernel:2.0.3",
         refresh_footer                       : "com.scwang.smart:refresh-footer-classics:2.0.3",
-        refresh_header                       : "com.scwang.smart:refresh-header-material:2.0.3",
+        refresh_header_material              : "com.scwang.smart:refresh-header-material:2.0.3",
         sensor                               : "com.sensorsdata.analytics.android:SensorsAnalyticsSDK:5.4.3",
         core_ktx                             : "androidx.core:core-ktx:1.3.2",
         drop_in                              : "com.braintreepayments.api:drop-in:5.2.1",
