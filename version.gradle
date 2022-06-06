@@ -173,5 +173,8 @@ ext.deps = [
         camera_view                          : "androidx.camera:camera-view:1.0.0-alpha14",
         camera_extensions                    : "androidx.camera:camera-extensions:1.0.0-alpha14",
         camera_lifecycle                     : "androidx.camera:camera-lifecycle:1.0.0-beta07",
-        joda                                 : "net.danlew:android.joda:2.9.4.1"
+        joda                                 : "net.danlew:android.joda:2.9.4.1",
+        google_play_services_maps            : "com.google.android.gms:play-services-maps:18.0.2",
+        google_maps_utils                    : "com.google.maps.android:android-maps-utils:2.3.0",
+        google_libraries_places              : "com.google.android.libraries.places:places:2.6.0"
 ]
