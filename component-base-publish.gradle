@@ -38,15 +38,16 @@ afterEvaluate {
     publishing {
         publications {
             maven(MavenPublication) {
-                groupId project.group
-                artifactId project.name
+                groupId GROUP
+                artifactId POM_ARTIFACT_ID
                 version getAarVersionName()
-                from components.release
+                from components.java
             }
         }
         repositories {
             maven {
-                allowInsecureProtocol = false
+                // 允许使用明文地址http
+                allowInsecureProtocol = true
                 name = "nexus"
                 if (isReleaseBuild()) {
                     url = getReleaseRepositoryUrl()
