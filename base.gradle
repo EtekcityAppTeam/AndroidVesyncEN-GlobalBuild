@@ -3,7 +3,6 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -15,7 +14,6 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [ AROUTER_MODULE_NAME: project.getName() ]
@@ -40,23 +38,19 @@ android {
         releaseStaging {
 
         }
-
-
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
+    kotlinOptions {
+        jvmTarget = "11"
+    }
 
     dataBinding {
         enabled = true
-    }
-
-    // work-runtime-ktx 2.1.0 and above now requires Java 8
-    kotlinOptions {
-        jvmTarget = "1.8"
     }
 
     lintOptions {
@@ -65,7 +59,6 @@ android {
         // but continue the build even when errors are found:
         abortOnError false
     }
-
 }
 
 //ARouter路由
@@ -77,13 +70,13 @@ kapt {
     generateStubs = true
 }
 
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     kapt "com.android.databinding:compiler:3.6.3"
 
     kapt 'com.alibaba:arouter-annotation:1.0.6'
+    
     // ARouter路由
     kapt 'com.alibaba:arouter-compiler:1.2.2'
 }
