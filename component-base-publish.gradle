@@ -4,6 +4,10 @@ def isReleaseBuild() {
     return !getAarVersionName().toUpperCase().contains("SNAPSHOT")
 }
 
+def isAndroidLib() {
+    return getPlugins().hasPlugin("com.android.library")
+}
+
 // 先读取jenkins配置的参数，然后在读本地的配置
 def getAarVersionName() {
     return System.getenv()['AAR_VERSION_NAME'] as String ?: VERSION_NAME
@@ -41,7 +45,14 @@ afterEvaluate {
                 groupId GROUP
                 artifactId POM_ARTIFACT_ID
                 version getAarVersionName()
-                from components.java
+
+                if (isAndroidLib() && isReleaseBuild()) {
+                    from components.release
+                } else if (isAndroidLib() && !isReleaseBuild()) {
+                    from components.debug
+                } else {
+                    from components.java
+                }
             }
         }
         repositories {
